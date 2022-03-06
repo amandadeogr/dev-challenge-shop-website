@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo-da-lateral-direita.css">
 
     <title>Shop Website</title>
 </head>
 <body>
     <main>
-        <section class="menu-lateral-direira">
-            <button class="btn-proximo">Next</button>
+        <section class="menu-lateral-direita">
+            <div class="container">
+                <button class="btn-proximo">Next <img src="/assets/seta-direita.png" alt="" srcset=""></button>
 
             <ul class="selecao-tamanhos">
                 <li class="item-selecao-tamanhos item-small">S</li>
@@ -20,13 +21,25 @@
             </ul>
 
             <div class="contador">
-                
+                <ul class="lista-contador">
+                    <li class="item-da-lista">
+                        <button class="btn diminui-quantidade">–</button>
+                    </li>
+                    <li class="exibe-quantidade item-da-lista">1</li>
+    
+                    <li class="item-da-lista">
+                        <button class="btn aumenta-quantidade">+</button>
+                    </li>
+                </ul>
             </div>
 
             <button type="submit" class="btn-sent-to-cart">Add to Cart</button>
+            </div>
+            
         </section>
     </main>
     
+    <script src="script.js"></script>
 </body>
 </html>
 

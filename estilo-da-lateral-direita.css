@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+:root {
+   --background-color: #e6e6e6;
+   --cinza: #d6d6d6;
+   --laranja: #e67e34;
+   --branco: #fff;
+   --montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+   list-style: none;
+   border: none;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   font-family: var(--montserrat);
+}
+.btn-proximo, .selecao-tamanhos, .contador, .btn-sent-to-cart {
+   margin-bottom: 1rem;
+}
+
+.selecao-tamanhos, .contador, .btn-sent-to-cart {
+   width: 100%;
+}
+
+.btn-sent-to-cart, .item-selecao-tamanhos:hover {
+   border: 2px solid var(--laranja);
+   transition: 0.3s;
+}
+
+.btn-proximo, .lista-contador{
+   background-color: var(--cinza);
+}
+
+section {
+   max-width: 90vw;
+}
+
+.container {
+   width: 12vw;
+   margin-top: 4rem;
+}
+
+.btn-proximo {
+   float: right;
+   cursor: pointer;
+   padding: 1rem 1.2rem;
+   text-align: center;
+}
+
+.btn-proximo:hover {
+   background-color: #dddada;
+   border: var(--cinza);
+   transition: 0.3s;
+}
+
+html {
+   background-color: var(--background-color);
+}
+
+.menu-lateral-direita {
+   padding: 1.6rem;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.selecao-tamanhos {
+   display: flex;
+   justify-content: space-around;
+}
+
+.item-selecao-tamanhos {
+   border-radius: 100%;
+   padding: .5rem;
+   width: .9rem;
+   text-align: center;
+   cursor: pointer;
+   font-size: .8rem;
+   border: 2px solid var(--cinza)
+}
+
+
+.lista-contador {
+   display: flex;
+   justify-content: space-between;
+   border: 2px solid var(--cinza);
+   background-color: #ebebeb;
+}
+
+.item-da-lista {
+   padding: 5px 10px;
+   text-align: center;
+}
+
+.item-da-lista .btn {
+   background-color: transparent;
+   cursor: pointer;
+   font-weight: 700;
+}
+
+.btn-sent-to-cart {
+   padding: 10px 15px;
+   text-transform: uppercase;
+   background-color: var(--laranja);
+   color: var(--branco);
+   cursor: pointer;
+   
+}
+
+.btn-sent-to-cart:hover {
+   background-color: #e08c4f;
+}
