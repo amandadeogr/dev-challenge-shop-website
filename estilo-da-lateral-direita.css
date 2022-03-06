@@ -20,9 +20,6 @@
    margin-bottom: 1rem;
 }
 
-.selecao-tamanhos, .contador, .btn-sent-to-cart {
-   width: 100%;
-}
 
 .btn-sent-to-cart, .item-selecao-tamanhos:hover {
    border: 2px solid var(--laranja);
@@ -40,13 +37,16 @@ section {
 .container {
    width: 12vw;
    margin-top: 4rem;
+   display: flex;
+   flex-direction: column;
 }
 
 .btn-proximo {
-   float: right;
    cursor: pointer;
    padding: 1rem 1.2rem;
    text-align: center;
+   width: 8vw;
+   margin-left: 3.5rem;
 }
 
 .btn-proximo:hover {
