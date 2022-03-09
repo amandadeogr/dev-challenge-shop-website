@@ -1,0 +1,29 @@
+:root {
+    --background-color: #e6e6e6;
+    --cinza: #d6d6d6;
+    --laranja: #e67e34;
+    --branco: #fff;
+    --montserrat: 'Montserrat', sans-serif;
+    --textcolor: #494949;
+ }
+ 
+ * {
+    list-style: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: var(--montserrat);
+ }
+
+ html, li a {
+    color: var(--textcolor)
+ }
+
+ li a:hover {
+    color: var(--laranja);
+    transition: .9s;
+ }
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
