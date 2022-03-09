@@ -1,0 +1,40 @@
+.container-header, .itens-direita, .lista-navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-lista-navegacao, .logo {
+    text-transform: uppercase;
+}
+
+.container-header {
+    width: 80vw;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+}
+
+.itens-direita {
+    width: 25vw;
+}
+
+ 
+.item-lista-navegacao {
+    margin-left: 1rem;
+    font-size: .8rem;
+}
+
+.logo {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.logo a {
+    color: var(--branco);
+}
+
+.bolsa-de-compras, .barra-de-menu, .logo {
+    cursor: pointer;
+}

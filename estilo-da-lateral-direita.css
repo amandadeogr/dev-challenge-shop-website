@@ -1,21 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
-:root {
-   --background-color: #e6e6e6;
-   --cinza: #d6d6d6;
-   --laranja: #e67e34;
-   --branco: #fff;
-   --montserrat: 'Montserrat', sans-serif;
-}
 
-* {
-   list-style: none;
-   border: none;
-   margin: 0;
-   padding: 0;
-   text-decoration: none;
-   font-family: var(--montserrat);
-}
 .btn-proximo, .selecao-tamanhos, .contador, .btn-sent-to-cart {
    margin-bottom: 1rem;
 }
@@ -36,7 +20,7 @@ section {
 
 .container {
    width: 12vw;
-   margin-top: 4rem;
+   margin-top: 2rem;
    display: flex;
    flex-direction: column;
 }
@@ -79,7 +63,6 @@ html {
    font-size: .8rem;
    border: 2px solid var(--cinza)
 }
-
 
 .lista-contador {
    display: flex;
